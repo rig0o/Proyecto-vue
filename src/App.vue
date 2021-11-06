@@ -1,26 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <cabezera msg="App de tareas"></cabezera>
+  <cuerpo></cuerpo>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import cabezera from './components/cabezera.vue'
+import cuerpo from './components/body.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    cabezera, cuerpo
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
